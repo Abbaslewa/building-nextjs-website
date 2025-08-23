@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "./components/navbar";  // ✅ case-sensitive & clean
+import Navbar from "./components/navbar";  
+import Footer from "./components/Footer";  
 
 export const metadata: Metadata = {
   title: "My Next.js App",
-  description: "A sample project with Navbar",
+  description: "A sample project with Navbar and Footer",
 };
 
 export default function RootLayout({
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body className="bg-gray-100">
         <Navbar />
         <main className="p-6">{children}</main>
+        <Footer />  
       </body>
     </html>
   );

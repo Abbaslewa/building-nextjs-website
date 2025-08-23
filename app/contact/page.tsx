@@ -4,13 +4,12 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white flex flex-col items-center justify-center px-6 sm:px-20">
       
-      {/* Contact Heading */}
       <h1 className="text-5xl font-extrabold mb-6 text-yellow-400">Contact Us</h1>
       <p className="text-lg sm:text-xl mb-12 text-gray-300 text-center">
         We’d love to hear from you! Reach out via email or phone, and we’ll get back to you promptly.
       </p>
 
-      {/* Contact Details */}
+      
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full max-w-3xl text-center sm:text-left">
         <div className="bg-gray-800 rounded-lg p-6 hover:scale-105 transition-transform">
           <h2 className="text-2xl font-bold mb-2">Email</h2>
@@ -22,7 +21,7 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* Optional Form */}
+      
       <div className="mt-12 w-full max-w-2xl">
         <form className="flex flex-col gap-4">
           <input
