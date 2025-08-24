@@ -6,17 +6,17 @@ export default function About() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white flex flex-col items-center justify-center px-6 sm:px-20">
       
-      {/* About Heading */}
+      
       <h1 className="text-5xl font-extrabold mb-10 text-yellow-400 text-center">
         About Me
       </h1>
 
-      {/* Profile Section */}
+      
       <div className="flex flex-col sm:flex-row items-center sm:items-start gap-10 max-w-5xl">
-        {/* Profile Image */}
+       
         <div className="relative group">
           <Image
-            src="/Abbas.jpg" // ✅ Make sure this file is inside /public folder
+            src="/Abbas.jpg" 
             alt="Abbas Omer"
             width={280}
             height={280}
@@ -25,7 +25,7 @@ export default function About() {
           <div className="absolute inset-0 rounded-full bg-yellow-400 opacity-10 group-hover:opacity-20 transition duration-500"></div>
         </div>
 
-        {/* Profile Info */}
+        
         <div className="sm:text-left text-center max-w-lg">
           <h2 className="text-4xl font-bold mb-2">Abbas Omer</h2>
           <p className="text-lg text-gray-300 mb-6">
@@ -42,7 +42,7 @@ export default function About() {
         </div>
       </div>
 
-      {/* Stats Section */}
+      
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-20 w-full max-w-4xl text-center">
         <div className="bg-gray-800 rounded-lg p-6 hover:scale-105 transition-transform shadow-lg">
           <h2 className="text-3xl font-bold text-yellow-400">5+</h2>

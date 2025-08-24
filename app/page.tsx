@@ -34,7 +34,7 @@ export default function Home(): JSX.Element {
               href={ROUTES.ABOUT}
               className="px-8 py-3 rounded-lg border border-yellow-400 text-yellow-400 font-medium hover:bg-yellow-400 hover:text-gray-900 transition-all shadow-lg hover:shadow-yellow-500/50"
             >
-              Learn More About Me
+              Learn More About Me!!
             </Link>
             <Link
               href={ROUTES.CONTACT}
