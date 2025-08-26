@@ -13,7 +13,7 @@ export default function Contact() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full max-w-3xl text-center sm:text-left">
         <div className="bg-gray-800 rounded-lg p-6 hover:scale-105 transition-transform">
           <h2 className="text-2xl font-bold mb-2">Email</h2>
-          <p className="text-gray-300">contact@myapp.com</p>
+          <p className="text-gray-300">abbasomerhassn@gmail.com</p>
         </div>
         <div className="bg-gray-800 rounded-lg p-6 hover:scale-105 transition-transform">
           <h2 className="text-2xl font-bold mb-2">Phone</h2>
